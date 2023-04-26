@@ -23,7 +23,7 @@ pygame.display.set_caption("Snake Game")
 clock = pygame.time.Clock()
 
 class Snake:
-    def __init__(self):
+    def __init__(self):  
         self.positions = [(WIDTH // 2, HEIGHT // 2)]  # Initial snake position
         self.direction = (0, -CELL_SIZE)  # Initial snake direction (up)
         self.grow = False
